@@ -1,4 +1,4 @@
-fruits = ['banana', 'strawberry', 'kiwi']
+fruits = ['banana', 'strawberry', 'kiwi', 'orange']
 
 if 'banana' in fruits:
     print('you really like banana')
@@ -8,6 +8,9 @@ if 'strawberry' in fruits:
 
 if 'kiwi' in fruits:
     print('you really like kiwi')
+
+if 'orange' in fruits:
+    print('Orange says: Hey Banana!')
 
 else:
     print('go and fuck youself, you fruit is not in the list')
@@ -26,5 +29,4 @@ if toppings:
         print(f"adding{topping}")
 else:
     print('are you sure you are not an idiot?')
-
 
